@@ -56,7 +56,7 @@ ROOT_URLCONF = 'signin_signup_django.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['signin_signup_django/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'signin_signup_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'newdb',
+        'NAME': 'hospital',
         'USER': 'anurag',
-        'PASSWORD': 'hello1234',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'Anurag8736931219',
+        'HOST': 'userdb.czctzrzbt0jh.ap-south-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
