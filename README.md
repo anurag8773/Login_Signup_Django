@@ -8,8 +8,6 @@ This project implements a secure login and signup system for patients and doctor
 - Robust user authentication with password hashing for security.
 - User-friendly interfaces for registration and login processes.
 - Customized dashboards for patients and doctors upon successful login.
-- Doctor's access to patient information and appointment details.
-- Patient access to personal medical records and the ability to schedule appointments.
 
 ## Requirements
 
